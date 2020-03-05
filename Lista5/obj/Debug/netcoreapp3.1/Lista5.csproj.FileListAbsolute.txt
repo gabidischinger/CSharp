@@ -1,0 +1,10 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\bin\Debug\netcoreapp3.1\Lista5.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\obj\Debug\netcoreapp3.1\Lista5.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\obj\Debug\netcoreapp3.1\Lista5.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\obj\Debug\netcoreapp3.1\Lista5.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\Lista5\obj\Debug\netcoreapp3.1\Lista5.pdb

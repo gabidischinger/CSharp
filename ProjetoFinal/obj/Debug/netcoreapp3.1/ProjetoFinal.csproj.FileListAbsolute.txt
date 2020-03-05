@@ -1,0 +1,11 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\bin\Debug\netcoreapp3.1\ProjetoFinal.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\obj\Debug\netcoreapp3.1\ProjetoFinal.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\obj\Debug\netcoreapp3.1\ProjetoFinal.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\obj\Debug\netcoreapp3.1\ProjetoFinal.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\obj\Debug\netcoreapp3.1\ProjetoFinal.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp_Modulo1\ProjetoFinal\obj\Debug\netcoreapp3.1\ProjetoFinal.pdb
