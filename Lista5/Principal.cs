@@ -8,10 +8,10 @@ namespace CSharp.Exercícios.ListaExers5
     {
         static void Main()
         {
-            //Exer1_Lista.CriarLista();
+            Exer1_Lista.CriarLista();
             //Exer2_Dicionario.CriarDicionario();
             //Exer3_Stack.CriarStack();
-            Exer4_Fila.CriarFila();
+            //Exer4_Fila.CriarFila();
         }
     }
 }

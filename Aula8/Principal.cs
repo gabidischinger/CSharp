@@ -189,7 +189,7 @@ namespace CSharp.Aulas.Aula8
             } while (opcao != 2);
         }
 
-        static void PraticandoDicionario()
+        static void PraticandoDicionario() // assinatura do método
         {
             Dictionary<int, int> dicio = new Dictionary<int, int>();
 
