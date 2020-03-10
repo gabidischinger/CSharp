@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj",
-      "projectName": "ProjetoFinal",
-      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj",
+      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal_Mod1.csproj",
+      "projectName": "ProjetoFinal_Mod1",
+      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal_Mod1.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\obj\\",
+      "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

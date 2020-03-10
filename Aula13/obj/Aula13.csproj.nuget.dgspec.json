@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Aula13\\Aula13.csproj": {}
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Aula13\\Aula13.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Aula13\\Aula13.csproj": {
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Aula13\\Aula13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Aula13\\Aula13.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Aula13\\Aula13.csproj",
         "projectName": "Aula13",
-        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Aula13\\Aula13.csproj",
+        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Aula13\\Aula13.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Aula13\\obj\\",
+        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Aula13\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

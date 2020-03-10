@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aulas", "Aulas", "{5CA93E81
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula10", "Aula10\Aula10.csproj", "{B3A21BA4-8987-4078-84F5-462C191050AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinal", "ProjetoFinal\ProjetoFinal.csproj", "{FF87C472-E531-4749-92CB-F887D9564D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinal_Mod1", "ProjetoFinal\ProjetoFinal_Mod1.csproj", "{FF87C472-E531-4749-92CB-F887D9564D0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercícios", "Exercícios", "{833ED62A-98A4-4290-83D0-3FA22BD83344}"
 EndProject
@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista4", "Lista4\Lista4.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista5", "Lista5\Lista5.csproj", "{B4158575-1F19-4DE7-B2F2-E8EE0F889E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula13", "Aula13\Aula13.csproj", "{02C4B3FE-4413-41D8-9C89-D6EE874955AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula13", "Aula13\Aula13.csproj", "{02C4B3FE-4413-41D8-9C89-D6EE874955AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

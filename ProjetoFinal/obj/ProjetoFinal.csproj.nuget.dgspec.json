@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj": {}
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj": {
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal.csproj",
         "projectName": "ProjetoFinal",
-        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\ProjetoFinal.csproj",
+        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\ProjetoFinal.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\ProjetoFinal\\obj\\",
+        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ProjetoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

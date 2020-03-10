@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista2\\Lista2.csproj",
+      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista2\\Lista2.csproj",
       "projectName": "Lista2",
-      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista2\\Lista2.csproj",
+      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista2\\Lista2.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista2\\obj\\",
+      "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

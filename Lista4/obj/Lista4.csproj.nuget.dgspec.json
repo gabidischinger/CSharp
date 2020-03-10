@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista4\\Lista4.csproj": {}
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista4\\Lista4.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista4\\Lista4.csproj": {
+    "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista4\\Lista4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista4\\Lista4.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista4\\Lista4.csproj",
         "projectName": "Lista4",
-        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista4\\Lista4.csproj",
+        "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista4\\Lista4.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp_Modulo1\\Lista4\\obj\\",
+        "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
