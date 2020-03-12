@@ -1,97 +1,94 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.Configuration;
+using System.Security.Cryptography;
+using System.Text;
+using System.IO;
+using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
-namespace CSharp_Modulo2
+namespace Aula14
 {
     class Program
     {
         static void Main()
         {
-            LoginApp loginApp = new LoginApp();
-
-            string usuario = "";
-            string senha = "12345";
-
-            loginApp.FazerLogin(usuario, senha);
-            loginApp.FazerLogout();
+          
+            string senha = ConfigurationManager.AppSettings["Senha"];
 
 
-            LoginSite loginSite = new LoginSite();
+            JObject json = JObject.Parse(File.ReadAllText(@"D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula14\myfile.json"));
+            Console.WriteLine(json);
+            Console.WriteLine();
+            Console.WriteLine();
 
-            string usuario2 = "gabi";
-            string senha2 = "123456";
+            Dictionary<string, string> lst2;
 
-            loginSite.FazerLogin(usuario2, senha2);
-            loginSite.FazerLogout();
+            using (StreamReader file = File.OpenText(@"D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula14\myfile.json"))
+            {
+                lst2 = JsonConvert.DeserializeObject<Dictionary<string, string>>(file.ReadToEnd());
+                foreach (var item in lst2)
+                {
+                    Console.WriteLine($"{item.Key}: {item.Value}");
+                }
+
+                //var lst1 = JsonConvert.DeserializeObject<dynamic>(file.ReadToEnd());
+                //foreach (KeyValuePair<string, object> item in lst1)
+                //{
+                //    Console.WriteLine($"{item.Key}: {item.Value}");
+                //}
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Criptografia criptografia = new Criptografia();
+            string senhaCriptografada = criptografia.CriptografarSenha(SHA256.Create(), senha);
+            Console.WriteLine($"Senha criptografa: {senhaCriptografada}");
+
+
+            //Console.WriteLine("Digite a sua senha:");
+            //string senhaDigitada = Console.ReadLine();
+            string senhaDigitada = lst2["senhaDigitada"];
+
+            bool verificaSenha = criptografia.VerificarSenha(SHA256.Create(), senhaDigitada, senhaCriptografada);
             
+
+            if (verificaSenha)
+                Console.WriteLine("Senha correta!");
+            else
+                Console.WriteLine("Senha inválida");
+
+
+            
+
         }
+    }
 
-
-        //privado não é herdado
-        //privado realmente só pode ser utilizado dentro da classe a que pertence
-        //quando quer ser utilizado pelas classes filhas, mas não fora delas, usar protected.
-
-        public abstract class Login
+    class Criptografia
+    {
+        public string CriptografarSenha(HashAlgorithm _algoritmo, string senha)
         {
-            public abstract void FazerLogin(string usuario, dynamic senha);
-
-            public abstract void FazerLogout();
-
-            protected virtual bool ValidarSeguranca(string usuario, dynamic senha)
+            var encodedValue = Encoding.UTF8.GetBytes(senha);
+            var encryptedPassword = _algoritmo.ComputeHash(encodedValue);
+            var sb = new StringBuilder();
+            foreach (var caracter in encryptedPassword)
             {
-
-                if (usuario == "" && senha == "12345")
-                    return true;
-                else
-                    return false;
-
+                sb.Append(caracter.ToString("X2"));
             }
+            return sb.ToString();
         }
-
-        public class LoginApp : Login
+        public bool VerificarSenha(HashAlgorithm _algoritmo, string senhaDigitada, string senhaCadastrada)
         {
-            public override void FazerLogin(string usuario, dynamic senha)
-            {               
-                
-                bool resultValidacao = ValidarSeguranca(usuario, senha);
-                if (resultValidacao)
-                    Console.WriteLine("Login realizado");
-                else
-                    Console.WriteLine("Login falhou");
-
-            }
-
-            public override void FazerLogout()
+            if (string.IsNullOrEmpty(senhaCadastrada))
+                throw new NullReferenceException("Cadastre uma senha.");
+            var encryptedPassword = _algoritmo.ComputeHash(Encoding.UTF8.GetBytes(senhaDigitada));
+            var sb = new StringBuilder();
+            foreach (var caractere in encryptedPassword)
             {
-                Console.WriteLine("Logout realizado");
+                sb.Append(caractere.ToString("X2"));
             }
+            return sb.ToString() == senhaCadastrada;
         }
-
-        public class LoginSite : Login
-        {
-            public override void FazerLogin(string usuario, dynamic senha)
-            {
-
-                bool resultValidacao = ValidarSeguranca(usuario, senha);
-                if (resultValidacao)
-                    Console.WriteLine("Sucesso");
-                else
-                    Console.WriteLine("Falha");
-
-            }
-
-            public override void FazerLogout()
-            {
-                Console.WriteLine("Saiu");
-            }
-
-            protected override bool ValidarSeguranca(string usuario, dynamic senha)
-            {
-                if (usuario == "" && senha == "123")
-                    return true;
-                else
-                    return false;
-            }
-        }
-
     }
 }
