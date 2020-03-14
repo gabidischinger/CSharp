@@ -1,0 +1,13 @@
+{
+  "prop1": 1,
+  "prop2": 2,
+  "prop3": [
+    "valor 1",
+    "valor 2",
+    "valor 3"
+  ],
+  "prop4": true,
+  "prop5": "Texto"
+}
+
+

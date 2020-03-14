@@ -1,0 +1,10 @@
+{
+  "item1": 1,
+  "item2": false,
+  "item3": "texto",
+  "item4": [
+    "lista 1",
+    "lista 2",
+    "lista 3"
+  ]
+}
