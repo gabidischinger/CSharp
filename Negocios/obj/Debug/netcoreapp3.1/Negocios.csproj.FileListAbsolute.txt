@@ -1,0 +1,7 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\bin\Debug\netcoreapp3.1\Negocios.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\bin\Debug\netcoreapp3.1\Negocios.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\bin\Debug\netcoreapp3.1\Negocios.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.pdb

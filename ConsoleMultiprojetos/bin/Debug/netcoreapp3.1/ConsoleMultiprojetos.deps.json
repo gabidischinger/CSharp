@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleMultiprojetos/1.0.0": {
+        "dependencies": {
+          "Dados": "1.0.0",
+          "Negocios": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleMultiprojetos.dll": {}
+        }
+      },
+      "Dados/1.0.0": {
+        "runtime": {
+          "Dados.dll": {}
+        }
+      },
+      "Negocios/1.0.0": {
+        "runtime": {
+          "Negocios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleMultiprojetos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Negocios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

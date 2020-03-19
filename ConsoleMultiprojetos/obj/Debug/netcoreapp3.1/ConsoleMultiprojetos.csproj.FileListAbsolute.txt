@@ -1,0 +1,16 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\ConsoleMultiprojetos.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Dados.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Dados.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.csproj.CopyComplete
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Negocios.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Negocios.pdb

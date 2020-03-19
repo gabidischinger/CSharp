@@ -1,0 +1,11 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\bin\Debug\netcoreapp3.1\Aula17.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\obj\Debug\netcoreapp3.1\Aula17.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\obj\Debug\netcoreapp3.1\Aula17.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\obj\Debug\netcoreapp3.1\Aula17.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\obj\Debug\netcoreapp3.1\Aula17.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula17\obj\Debug\netcoreapp3.1\Aula17.pdb

@@ -7,7 +7,7 @@ namespace Aula15
 {
     class FIleWork
     {
-        /*
+        
         static void Main()
         {
             //CriarPasta(@"D:\OneDrive\Estudos\Pi\C#\Aula15\", "Origem");
@@ -43,7 +43,7 @@ namespace Aula15
             LerArquivo(path2, "copia_" + arquivo);
 
         }
-        */
+        
 
         #region Folder
 
