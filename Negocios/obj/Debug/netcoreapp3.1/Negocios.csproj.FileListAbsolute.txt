@@ -5,3 +5,7 @@ D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negoc
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.AssemblyInfo.cs
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.dll
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\bin\Debug\netcoreapp3.1\Comum.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\bin\Debug\netcoreapp3.1\Comum.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Negocios\obj\Debug\netcoreapp3.1\Negocios.csproj.CopyComplete

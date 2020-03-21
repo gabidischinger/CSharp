@@ -1,19 +1,27 @@
 ﻿using System;
+using System.Text;
+using Comum;
 
 namespace Negocios
 {
     public class AnalisarCadastro
     {
-        public bool Analisar(string cadastro)
+        public string Analisar(ICadastro icadastro)
         {
-            bool ok = false;
+            StringBuilder validacao = new StringBuilder();
 
-            if (cadastro == "")
-                ok = false;
-            else
-                ok = true;
+            if (string.IsNullOrEmpty(icadastro.GetNome()))
+                validacao.Append("\nNome invalido");
 
-            return ok;
+            if (string.IsNullOrEmpty(icadastro.GetSobrenome()))
+                validacao.Append("\nSobrenome invalido");
+
+            if (icadastro.GetIdade() < 1 || icadastro.GetIdade() > 150)
+                validacao.Append("\nIdade invalida");
+
+            return validacao.ToString();
         }
+
+        
     }
 }

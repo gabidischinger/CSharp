@@ -5,3 +5,7 @@ D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.As
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.AssemblyInfo.cs
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.dll
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\bin\Debug\netcoreapp3.1\Comum.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\bin\Debug\netcoreapp3.1\Comum.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Dados\obj\Debug\netcoreapp3.1\Dados.csproj.CopyComplete

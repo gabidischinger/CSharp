@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Comum/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Comum.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Comum/1.0.0": {
+      "type": "project",
+      "path": "../Comum/Comum.csproj",
+      "msbuildProject": "../Comum/Comum.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Comum >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gabri\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Comum\\Comum.csproj": {
+              "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Comum\\Comum.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

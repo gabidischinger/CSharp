@@ -14,3 +14,7 @@ D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcore
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\obj\Debug\netcoreapp3.1\ConsoleMultiprojetos.csproj.CopyComplete
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Negocios.dll
 D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Negocios.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Comum.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Comum.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\ConsoleMultiprojetos\bin\Debug\netcoreapp3.1\settings.json

@@ -1,0 +1,8 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\bin\Debug\netcoreapp3.1\Comum.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\bin\Debug\netcoreapp3.1\Comum.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\bin\Debug\netcoreapp3.1\Comum.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\obj\Debug\netcoreapp3.1\Comum.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\obj\Debug\netcoreapp3.1\Comum.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\obj\Debug\netcoreapp3.1\Comum.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\obj\Debug\netcoreapp3.1\Comum.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Comum\obj\Debug\netcoreapp3.1\Comum.pdb

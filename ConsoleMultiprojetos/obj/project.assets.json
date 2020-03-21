@@ -2,9 +2,31 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Comum/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Comum.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Comum.dll": {}
+        }
+      },
       "Dados/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Comum": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dados.dll": {}
         },
@@ -15,6 +37,9 @@
       "Negocios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Comum": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Negocios.dll": {}
         },
@@ -25,6 +50,42 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Comum/1.0.0": {
+      "type": "project",
+      "path": "../Comum/Comum.csproj",
+      "msbuildProject": "../Comum/Comum.csproj"
+    },
     "Dados/1.0.0": {
       "type": "project",
       "path": "../Dados/Dados.csproj",
@@ -38,8 +99,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Comum >= 1.0.0",
       "Dados >= 1.0.0",
-      "Negocios >= 1.0.0"
+      "Negocios >= 1.0.0",
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
@@ -48,9 +111,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ConsoleMultiprojetos\\ConsoleMultiprojetos.csproj",
-      "projectName": "ConsoleMultiprojetos",
-      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ConsoleMultiprojetos\\ConsoleMultiprojetos.csproj",
+      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ConsoleMultiprojetos\\Apresentacao.csproj",
+      "projectName": "Apresentacao",
+      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ConsoleMultiprojetos\\Apresentacao.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\ConsoleMultiprojetos\\obj\\",
       "projectStyle": "PackageReference",
@@ -68,6 +131,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Comum\\Comum.csproj": {
+              "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Comum\\Comum.csproj"
+            },
             "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Dados\\Dados.csproj": {
               "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Dados\\Dados.csproj"
             },
@@ -85,6 +151,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

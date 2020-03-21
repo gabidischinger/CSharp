@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Negocios/1.0.0": {
+        "dependencies": {
+          "Comum": "1.0.0"
+        },
         "runtime": {
           "Negocios.dll": {}
+        }
+      },
+      "Comum/1.0.0": {
+        "runtime": {
+          "Comum.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Negocios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Comum/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
