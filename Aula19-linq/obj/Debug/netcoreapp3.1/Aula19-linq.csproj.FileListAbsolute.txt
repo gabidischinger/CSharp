@@ -1,0 +1,10 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\bin\Debug\netcoreapp3.1\Aula19-linq.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\obj\Debug\netcoreapp3.1\Aula19-linq.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\obj\Debug\netcoreapp3.1\Aula19-linq.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\obj\Debug\netcoreapp3.1\Aula19-linq.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula19-linq\obj\Debug\netcoreapp3.1\Aula19-linq.pdb

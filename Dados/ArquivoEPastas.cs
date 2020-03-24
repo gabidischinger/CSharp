@@ -27,7 +27,7 @@ namespace Dados
                     sw.WriteLine(senha);
                 }
 
-                Console.WriteLine("Usuário e senha cadastrados com sucesso");
+                Console.WriteLine("Senha cadastrados com sucesso");
             }
             else
                 Console.WriteLine("Senha já cadastrada");
