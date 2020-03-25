@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lista8-dado/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Lista8-interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lista8-dado.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lista8-dado.dll": {}
+        }
+      },
+      "Lista8-interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Lista8-interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lista8-interfaces.dll": {}
+        }
+      },
+      "Lista8-negocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Lista8-interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lista8-negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lista8-negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lista8-dado/1.0.0": {
+      "type": "project",
+      "path": "../Lista8-dado/Lista8-dado.csproj",
+      "msbuildProject": "../Lista8-dado/Lista8-dado.csproj"
+    },
+    "Lista8-interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Lista8-interfaces/Lista8-interfaces.csproj",
+      "msbuildProject": "../Lista8-interfaces/Lista8-interfaces.csproj"
+    },
+    "Lista8-negocio/1.0.0": {
+      "type": "project",
+      "path": "../Lista8-negocio/Lista8-negocio.csproj",
+      "msbuildProject": "../Lista8-negocio/Lista8-negocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Lista8-dado >= 1.0.0",
+      "Lista8-negocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-apresentacao\\Lista8-apresentacao.csproj",
+      "projectName": "Lista8-apresentacao",
+      "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-apresentacao\\Lista8-apresentacao.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-apresentacao\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-dado\\Lista8-dado.csproj": {
+              "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-dado\\Lista8-dado.csproj"
+            },
+            "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-negocio\\Lista8-negocio.csproj": {
+              "projectPath": "D:\\OneDrive\\Estudos\\Pi\\Repositorio\\CSharp\\Lista8-negocio\\Lista8-negocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

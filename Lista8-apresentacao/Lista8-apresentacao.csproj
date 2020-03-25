@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Lista8_apresentacao</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lista8-dado\Lista8-dado.csproj" />
+    <ProjectReference Include="..\Lista8-negocio\Lista8-negocio.csproj" />
+  </ItemGroup>
+
+</Project>

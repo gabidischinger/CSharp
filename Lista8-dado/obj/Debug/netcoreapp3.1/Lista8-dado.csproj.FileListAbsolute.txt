@@ -1,0 +1,11 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\bin\Debug\netcoreapp3.1\Lista8-dado.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\bin\Debug\netcoreapp3.1\Lista8-dado.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\bin\Debug\netcoreapp3.1\Lista8-dado.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\bin\Debug\netcoreapp3.1\Lista8-interfaces.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\bin\Debug\netcoreapp3.1\Lista8-interfaces.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.csproj.CopyComplete
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-dado\obj\Debug\netcoreapp3.1\Lista8-dado.pdb

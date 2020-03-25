@@ -1,0 +1,11 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\bin\Debug\netcoreapp3.1\Lista8-negocio.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\bin\Debug\netcoreapp3.1\Lista8-negocio.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\bin\Debug\netcoreapp3.1\Lista8-negocio.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\bin\Debug\netcoreapp3.1\Lista8-interfaces.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\bin\Debug\netcoreapp3.1\Lista8-interfaces.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.csproj.CopyComplete
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista8-negocio\obj\Debug\netcoreapp3.1\Lista8-negocio.pdb
