@@ -10,7 +10,7 @@ namespace Lista8_negocio
 
         public static bool Emprestar(ref List<IEmprestimoDado> emprestimos, IEmprestimoDado livroEmprestado)
         {
-            IEmprestimoDado procurarLivro = emprestimos.FirstOrDefault(e => e.LivroDado.Tombo.Equals(livroEmprestado.LivroDado.Tombo));
+            IEmprestimoDado procurarLivro = emprestimos.FirstOrDefault(e => e.GetLivroDado().GetTombo().Equals(livroEmprestado.GetLivroDado().GetTombo()));
 
             if (procurarLivro == null)
             {
@@ -24,7 +24,7 @@ namespace Lista8_negocio
 
         public static bool Devolver(ref List<IEmprestimoDado> emprestimos, int id)
         {
-            IEmprestimoDado procurarEmprestimo = emprestimos.FirstOrDefault(e => e.Id.Equals(id));
+            IEmprestimoDado procurarEmprestimo = emprestimos.FirstOrDefault(e => e.GetId().Equals(id));
 
             if (procurarEmprestimo == null)
             {                
@@ -38,23 +38,32 @@ namespace Lista8_negocio
                 
         }
 
-        public static ILivroDado ProcurarLivro(List<ILivroDado> livros, int tombo)
+        public static ILivroDado ProcurarLivro(ILivroDado livro,List<ILivroDado> livros, int tombo)
         {
-            return livros.FirstOrDefault(l => l.Tombo.Equals(tombo));
-
+             return livro.PesquisarLivro(livros, tombo);
         }
 
-        public static IPessoaDado ProcurarPessoa(List<IPessoaDado> pessoas, int cpf)
+        public static IPessoaDado ProcurarPessoa(IPessoaDado pessoa, List<IPessoaDado> pessoas, string cpf)
         {
-
-            return pessoas.FirstOrDefault(p => p.CPF.Equals(cpf));
-            
+            return pessoa.PesquisarPessoa(pessoas, cpf);
         }
 
         public static IEmprestimoDado ProcurarEmprestimo(List<IEmprestimoDado> emprestimos, int id)
         {
-            return emprestimos.FirstOrDefault(e => e.Id.Equals(id));
+            return emprestimos.FirstOrDefault(e => e.GetId().Equals(id));
             
+        }
+
+        public static bool DeletarLivro(ILivroDado livro, List<ILivroDado> livros, List<IEmprestimoDado> emprestimos, int tombo)
+        {
+            bool livroDeletado = livro.DeletarLivro(ref livros, emprestimos, tombo);
+            return livroDeletado;
+        }
+
+        public static bool DeletarPessoa(IPessoaDado pessoa, List<IPessoaDado> pessoas, string cpf)
+        {
+            bool pessoaDeletada = pessoa.DeletarPessoas(ref pessoas, cpf);
+            return pessoaDeletada;
         }
 
     }

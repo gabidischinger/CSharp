@@ -38,15 +38,27 @@ namespace Lista8_apresentacao
                         CadastrarLivro();
                         break;
                     case 2:
-                        CadastrarPessoa();
+                        PesquisarLivro();
                         break;
                     case 3:
-                        AlugarLivro();
+                        DeletarLivro();
                         break;
                     case 4:
-                        DevolverLivro();
+                        CadastrarPessoa();
                         break;
                     case 5:
+                        PesquisarPessoa();
+                        break;
+                    case 6:
+                        DeletarPessoa();
+                        break;
+                    case 7:
+                        AlugarLivro();
+                        break;
+                    case 8:
+                        DevolverLivro();
+                        break;
+                    case 9:
                         Console.WriteLine("Saindo...");
                         break;
                     default:
@@ -56,7 +68,7 @@ namespace Lista8_apresentacao
 
                 }
 
-            } while (opcao != 5);
+            } while (opcao != 9);
         }
 
         static void Menu()
@@ -64,14 +76,19 @@ namespace Lista8_apresentacao
             StringBuilder menu = new StringBuilder();
             menu.Append("Digite a opção desejada:");
             menu.Append("\n1 - Cadastrar livro");
-            menu.Append("\n2 - Cadastrar pessoa");
-            menu.Append("\n3 - Emprestar livro");
-            menu.Append("\n4 - Devolver livro");
-            menu.Append("\n5 - Sair");
+            menu.Append("\n2 - Pesquisar livro");
+            menu.Append("\n3 - Deletar livro");
+            menu.Append("\n4 - Cadastrar pessoa");
+            menu.Append("\n5 - Pesquisar pessoa");
+            menu.Append("\n6 - Deletar pessoa");
+            menu.Append("\n7 - Emprestar livro");
+            menu.Append("\n8 - Devolver livro");
+            menu.Append("\n9 - Sair");
 
             Console.WriteLine(menu);
 
         }
+
 
         static void CadastrarLivro()
         {
@@ -83,47 +100,70 @@ namespace Lista8_apresentacao
 
             int tombo = new Random().Next();
 
-            ILivroDado livro = new LivroDado(tombo, titulo, autor);
+            ILivroDado livro = new LivroDado();
+            livro.CadastrarLivro(tombo, titulo, autor);
             livros.Add(livro);
 
             Console.WriteLine("Livro cadastrado com sucesso.");
-            Console.WriteLine($"Titulo: {livro.Titulo}");
-            Console.WriteLine($"Autor: {livro.Autor}");
-            Console.WriteLine($"Tombo: {livro.Tombo}");
+            Console.WriteLine($"Titulo: {livro.GetTitulo()}");
+            Console.WriteLine($"Autor: {livro.GetAutor()}");
+            Console.WriteLine($"Tombo: {livro.GetTombo()}");
             Console.WriteLine();
             Console.WriteLine();
+
+        }
+
+        static void PesquisarLivro()
+        {
+            Console.WriteLine("Digite o tombo do livro que deseja buscar:");
+            int tombo = int.Parse(Console.ReadLine());
+
+            ILivroDado livroPesquisado = new LivroDado();
+            livroPesquisado = BibliotecaNegocio.ProcurarLivro(livroPesquisado, livros, tombo);
+
+            if(livroPesquisado == null)
+            {
+                Console.WriteLine("Livro não encontrado");
+            } else
+            {
+                Console.WriteLine("Livro encontrado:");
+                Console.WriteLine($"Titulo do livro: {livroPesquisado.GetTitulo()}");
+                Console.WriteLine($"Autor do livro: {livroPesquisado.GetAutor()}");
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+
+        }
+
+        static void DeletarLivro()
+        {
+            bool livroDeletado = false;
+
+            do
+            {
+                Console.WriteLine("Digite o tombo do livro que deseja deletar:");
+                int tombo = int.Parse(Console.ReadLine());
+
+                ILivroDado livro = new LivroDado();
+                livroDeletado = BibliotecaNegocio.DeletarLivro(livro, livros, emprestimos, tombo);
+
+            } while (livroDeletado == false);
 
         }
 
         static void CadastrarPessoa()
         {
             Console.WriteLine("Digite o CPF:");
-            int cpf = 0;
-            bool cpfValido = false;
-
-            do
-            {
-                try
-                {
-                    cpf = int.Parse(Console.ReadLine());
-                    cpfValido = true;
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Erro: " + e.Message);
-                    Console.WriteLine("Tente novamente.");
-                    cpfValido = false;
-                }
-            } while (cpfValido == false);
-                    
-            
+            string cpf = Console.ReadLine();
+                            
             Console.WriteLine("Digite o nome:");
             string nome = Console.ReadLine();
 
             Console.WriteLine("Digite o email:");
             string email = Console.ReadLine();
 
-            IPessoaDado pessoa = new PessoaDado(cpf, nome, email);
+            IPessoaDado pessoa = new PessoaDado();
+            pessoa.CadastrarPessoa(cpf, nome, email);
             pessoas.Add(pessoa);
 
             Console.WriteLine("Pessoa cadastrada com sucesso");
@@ -132,11 +172,48 @@ namespace Lista8_apresentacao
 
         }
 
+        static void PesquisarPessoa()
+        {
+            Console.WriteLine("Digite o CPF da pessoa que deseja buscar:");
+            string cpf = Console.ReadLine();
+
+            IPessoaDado pessoaPesquisada = new PessoaDado();
+            pessoaPesquisada = BibliotecaNegocio.ProcurarPessoa(pessoaPesquisada, pessoas, cpf);
+
+            if (pessoaPesquisada == null)
+            {
+                Console.WriteLine("Pessoa não encontrado");
+            }
+            else
+            {
+                Console.WriteLine("Pessoa encontrada:");
+                Console.WriteLine($"Nome da pessoa: {pessoaPesquisada.GetNome()}");
+                Console.WriteLine($"Email da pessoa: {pessoaPesquisada.GetEmail()}");
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+        }
+
+        static void DeletarPessoa()
+        {
+            bool pessoaDeletada = false;
+
+            do
+            {
+                Console.WriteLine("Digite o CPF da pessoa que deseja deletar:");
+                string cpf = Console.ReadLine();
+
+                IPessoaDado pessoa = new PessoaDado();
+                pessoaDeletada = BibliotecaNegocio.DeletarPessoa(pessoa, pessoas, cpf);
+
+            } while (pessoaDeletada == false);
+        }
+
         static void AlugarLivro()
         {
-            IPessoaDado pessoa = null;
-            ILivroDado livro = null;
-            int cpf;
+            IPessoaDado pessoa = new PessoaDado();
+            ILivroDado livro = new LivroDado();
+            string cpf;
             int tombo;
             
             if(pessoas.Count >= 1 && livros.Count >= 1)
@@ -144,22 +221,12 @@ namespace Lista8_apresentacao
                 do
                 {
                     Console.WriteLine("Digite o CPF da pessoa que deseja alugar um livro:");
+                    cpf = Console.ReadLine();
+                    pessoa = BibliotecaNegocio.ProcurarPessoa(pessoa, pessoas, cpf);
 
-                    try
+                    if (pessoa == null)
                     {
-                        cpf = int.Parse(Console.ReadLine());
-                        pessoa = BibliotecaNegocio.ProcurarPessoa(pessoas, cpf);
-
-                        if (pessoa == null)
-                        {
-                            Console.WriteLine("CPF inválido, tente novamente.");
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine("Erro: " + e.Message);
-                        Console.WriteLine("Tente novamente.");
-                        pessoa = null;
+                        Console.WriteLine("CPF inválido, tente novamente.");
                     }
 
                 } while (pessoa == null);
@@ -169,14 +236,14 @@ namespace Lista8_apresentacao
                     Console.WriteLine("Digite o tombo do livro que deseja ser alugado:");
 
                     tombo = int.Parse(Console.ReadLine());
-                    livro = BibliotecaNegocio.ProcurarLivro(livros, tombo);
+                    livro = BibliotecaNegocio.ProcurarLivro(livro, livros, tombo);
 
                     if (livro == null)
                     {
-                        Console.WriteLine("Título inválido, tente novamente.");
+                        Console.WriteLine("Livro inválido, tente novamente.");
                     }
 
-                } while (pessoa == null);
+                } while (livro == null);
 
                 int id = new Random().Next();
                 IEmprestimoDado livroEmprestado = new EmprestimoDado(id, DateTime.Today, livro, pessoa);
@@ -185,8 +252,8 @@ namespace Lista8_apresentacao
                 if (emprestar)
                 {
                     Console.WriteLine("Livro emprestado com sucesso");
-                    Console.WriteLine($"ID do emprestimo: {livroEmprestado.Id}");
-                    Console.WriteLine($"Data do emprestimo: {livroEmprestado.DataEmprestimo}");
+                    Console.WriteLine($"ID do emprestimo: {livroEmprestado.GetId()}");
+                    Console.WriteLine($"Data do emprestimo: {livroEmprestado.GetDataEmprestimo()}");
                     Console.WriteLine();
                     Console.WriteLine();
                 }

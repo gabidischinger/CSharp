@@ -7,10 +7,10 @@ namespace Lista8_dado
 {
     public class EmprestimoDado : IEmprestimoDado
     {
-        public int Id { get; set; }
-        public DateTime DataEmprestimo { get; set; }
-        public ILivroDado LivroDado { get; set; }
-        public IPessoaDado PessoaDado { get; set; }
+        int Id { get; set; }
+        DateTime DataEmprestimo { get; set; }
+        ILivroDado LivroDado { get; set; }
+        IPessoaDado PessoaDado { get; set; }
 
         
         public EmprestimoDado(int id, DateTime dataemprestimo, ILivroDado livro, IPessoaDado pessoa)
@@ -19,6 +19,26 @@ namespace Lista8_dado
             DataEmprestimo = dataemprestimo;
             LivroDado = livro;
             PessoaDado = pessoa;
+        }
+
+        public int GetId()
+        {
+            return Id;
+        }
+
+        public DateTime GetDataEmprestimo()
+        {
+            return DataEmprestimo;
+        }
+
+        public ILivroDado GetLivroDado()
+        {
+            return LivroDado;
+        }
+
+        public IPessoaDado GetPessoaDado()
+        {
+            return PessoaDado;
         }
     }
 }
