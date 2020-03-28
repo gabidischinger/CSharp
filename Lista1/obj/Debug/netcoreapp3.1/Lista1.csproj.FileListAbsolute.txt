@@ -1,0 +1,3 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista1\obj\Debug\netcoreapp3.1\Lista1.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista1\obj\Debug\netcoreapp3.1\Lista1.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Lista1\obj\Debug\netcoreapp3.1\Lista1.AssemblyInfo.cs

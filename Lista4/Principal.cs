@@ -6,10 +6,10 @@ namespace CSharp.Exercícios.Lista4
 {
     class Principal
     {
-        //static void Main()
-        //{
-        //    Iniciar();
-        //}
+        static void Main()
+        {
+            Iniciar();
+        }
 
         static void Iniciar()
         {

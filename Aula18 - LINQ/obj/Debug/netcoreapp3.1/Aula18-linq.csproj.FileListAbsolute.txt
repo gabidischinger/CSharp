@@ -1,0 +1,10 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\bin\Debug\netcoreapp3.1\Aula18-linq.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\obj\Debug\netcoreapp3.1\Aula18-linq.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\obj\Debug\netcoreapp3.1\Aula18-linq.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\obj\Debug\netcoreapp3.1\Aula18-linq.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula18 - LINQ\obj\Debug\netcoreapp3.1\Aula18-linq.pdb

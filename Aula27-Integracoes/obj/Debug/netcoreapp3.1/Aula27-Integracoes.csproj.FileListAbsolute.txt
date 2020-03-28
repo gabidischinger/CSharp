@@ -1,0 +1,14 @@
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.exe
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.deps.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.runtimeconfig.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.runtimeconfig.dev.json
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Aula27-Integracoes.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.AssemblyInfoInputs.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.AssemblyInfo.cs
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.pdb
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Integracao.dll
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.csprojAssemblyReference.cache
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\obj\Debug\netcoreapp3.1\Aula27-Integracoes.csproj.CopyComplete
+D:\OneDrive\Estudos\Pi\Repositorio\CSharp\Aula27-Integracoes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

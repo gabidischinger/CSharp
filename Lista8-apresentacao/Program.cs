@@ -211,15 +211,19 @@ namespace Lista8_apresentacao
 
         static void AlugarLivro()
         {
-            IPessoaDado pessoa = new PessoaDado();
-            ILivroDado livro = new LivroDado();
+                      
             string cpf;
             int tombo;
             
             if(pessoas.Count >= 1 && livros.Count >= 1)
             {
+                IPessoaDado pessoa;
+                ILivroDado livro;
+
                 do
                 {
+                    pessoa = new PessoaDado();
+
                     Console.WriteLine("Digite o CPF da pessoa que deseja alugar um livro:");
                     cpf = Console.ReadLine();
                     pessoa = BibliotecaNegocio.ProcurarPessoa(pessoa, pessoas, cpf);
@@ -233,6 +237,7 @@ namespace Lista8_apresentacao
 
                 do
                 {
+                    livro = new LivroDado();
                     Console.WriteLine("Digite o tombo do livro que deseja ser alugado:");
 
                     tombo = int.Parse(Console.ReadLine());
